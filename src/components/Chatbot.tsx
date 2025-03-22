@@ -22,7 +22,7 @@ const Chatbot = () => {
 
   // Configuración del cliente OpenAI con la API Key.
   const openai = new OpenAI({
-    apiKey: "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", // ⚠️ NO debes exponer tu API Key en código público
+    apiKey: "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", // ⚠️ NO debes exponer tu API Key en código público
     dangerouslyAllowBrowser: true, // Permite que el cliente de OpenAI se use en el frontend (⚠️ no recomendado por seguridad).
   });
 
